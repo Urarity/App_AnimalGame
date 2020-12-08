@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".score">
+
+    <ImageView
+        android:id="@+id/jungle_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/jungleDesc"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/jungle" />
+
+    <ImageView
+        android:id="@+id/dark"
+        android:layout_width="405dp"
+        android:layout_height="568dp"
+        android:layout_marginTop="70dp"
+        android:contentDescription="@string/jungleDesc"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dark_box" />
+
+    <TextView
+        android:id="@+id/lose_txt"
+        android:layout_width="237dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginLeft="87dp"
+        android:layout_marginTop="194dp"
+        android:shadowColor="@android:color/background_dark"
+        android:text="@string/fail"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/holo_green_dark"
+        android:textColorHint="@android:color/holo_green_dark"
+        android:textSize="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fail_text"
+        android:layout_width="115dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="247dp"
+        android:layout_marginLeft="247dp"
+        android:layout_marginTop="340dp"
+        android:shadowColor="@android:color/background_dark"
+        android:text="@string/perfect"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/holo_green_dark"
+        android:textColorHint="@android:color/holo_green_dark"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/finish"
+        android:layout_width="167dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="340dp"
+        android:shadowColor="@android:color/background_dark"
+        android:text="@string/your_score"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/holo_green_dark"
+        android:textColorHint="@android:color/holo_green_dark"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/try_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="500dp"
+        android:text="@string/try_again"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="300dp" />
+
+    <Button
+        android:id="@+id/home_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="500dp"
+        android:text="@string/home"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="300dp" />
+
+
+</android.support.constraint.ConstraintLayout>

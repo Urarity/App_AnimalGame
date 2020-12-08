@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Animal Game</string>
+    <string name="jungleDesc">Jungle Background</string>
+    <string name="startTxt">Can you guess these 6 Animals Facts?</string>
+    <string name="start_game_btn">Start Game</string>
+    <string name="activity_2">Activity 2 Test</string>
+    <string name="go_back">Quit?</string>
+    <string name="next">Submit</string>
+    <string name="choose">Choose Animal</string>
+    <string name="animal_names">All Animals</string>
+    <string name="dog">A) Dog</string>
+    <string name="cat">B) Cat</string>
+    <string name="mouse">C) Mouse</string>
+    <string name="pika">D) Pika</string>
+    <string name="gerbil">E) Gerbil</string>
+    <string name="chinchilla">F) Chinchilla</string>
+    <string name="edit_txt">Points: 0/10</string>
+    <string name="win">Great Job!</string>
+    <string name="perfect">Score</string>
+    <string name="your_score">Your Score: </string>
+    <string name="fail">You Lost</string>
+    <string name="home">Home</string>
+    <string name="try_again">Try Again</string>
+    <string name="sorry">Sorry to see you quit</string>
+</resources>

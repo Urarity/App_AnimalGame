@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--    Background    -->
+
+    <ImageView
+        android:id="@+id/jungle_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/jungleDesc"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/jungle" />
+
+    <ImageView
+        android:id="@+id/dark"
+        android:layout_width="match_parent"
+        android:layout_height="644dp"
+        android:layout_marginTop="70dp"
+        android:contentDescription="@string/jungleDesc"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dark_box" />
+
+    <ImageView
+        android:id="@+id/dark_btn2"
+        android:layout_width="155dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="0dp"
+        android:contentDescription="@string/jungleDesc"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dark_box" />
+
+    <!--    Questions    -->
+
+    <TextView
+        android:id="@+id/st_text"
+        android:layout_width="295dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="170dp"
+        android:shadowColor="@android:color/background_dark"
+        android:text="@string/activity_2"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/holo_green_dark"
+        android:textColorHint="@android:color/holo_green_dark"
+        android:textSize="16sp" />
+
+    <!--    Buttons    -->
+    <Button
+        android:id="@+id/quit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/go_back"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="500dp"
+        android:text="@string/next"
+        android:layout_marginLeft="300dp" />
+
+    <!--    User Input    -->
+    <EditText
+        android:id="@+id/user_input"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="240dp"
+        android:autofillHints="none"
+        android:digits="abcdefghijklmnopqrstuvwxyz"
+        android:ems="10"
+        android:hint="@string/choose"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <!--    Score    -->
+    <TextView
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="285dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/edit_txt"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+<!--    Animals    -->
+
+    <TextView
+        android:id="@+id/dog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="290dp"
+        android:shadowColor="@android:color/background_dark"
+        android:text="@string/dog"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/holo_green_dark"
+        android:textColorHint="@android:color/holo_green_dark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/mouse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="320dp"
+        android:shadowColor="@android:color/background_dark"
+        android:text="@string/mouse"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/holo_green_dark"
+        android:textColorHint="@android:color/holo_green_dark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/cat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="290dp"
+        android:shadowColor="@android:color/background_dark"
+        android:text="@string/cat"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/holo_green_dark"
+        android:textColorHint="@android:color/holo_green_dark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/pika"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="320dp"
+        android:shadowColor="@android:color/background_dark"
+        android:text="@string/pika"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/holo_green_dark"
+        android:textColorHint="@android:color/holo_green_dark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/gerbil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="350dp"
+        android:shadowColor="@android:color/background_dark"
+        android:text="@string/gerbil"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/holo_green_dark"
+        android:textColorHint="@android:color/holo_green_dark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/chinchilla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="350dp"
+        android:shadowColor="@android:color/background_dark"
+        android:text="@string/chinchilla"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/holo_green_dark"
+        android:textColorHint="@android:color/holo_green_dark"
+        android:textSize="20sp" />
+
+</RelativeLayout>
